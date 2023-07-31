@@ -1,9 +1,8 @@
-# Premier pipeline
-
+#Premier pipeline
 name: Pipeline de demonstration
 on: [push]
 jobs:
-  mon premier job: 
-    runs-on: ubuntu-last
-      steps:
-        -run: echo "Ceci est mon premoer Job"
+  mon-premier-job: 
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Ceci est mon premoer Job "
